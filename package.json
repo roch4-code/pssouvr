@@ -1,0 +1,7 @@
+{
+  "name": "deus-e-o-juiz-store",
+  "version": "1.1.0",
+  "private": true,
+  "description": "Loja: Supabase Auth e catálogo, Render API e Neon cifrado para dados sensíveis dos pedidos",
+  "scripts": { "start:api": "npm --prefix render-api start", "check:api": "node --check render-api/server.mjs" }
+}

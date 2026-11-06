@@ -1,0 +1,1 @@
+// Catálogo e preços ficam no Supabase. Neon é reservado a dados sensíveis dos pedidos.

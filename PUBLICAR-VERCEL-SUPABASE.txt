@@ -1,0 +1,2 @@
+Esta versão usa Supabase Auth e catálogo, Render para a API privada e Neon para os campos pessoais de pedido cifrados. Não use a configuração antiga Neon Auth/Data API.
+Siga LEIA-ME-ATUALIZADO.txt e ORDERS-SETUP.md.

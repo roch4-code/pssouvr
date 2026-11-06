@@ -1,0 +1,8 @@
+User-agent: *
+Allow: /
+Disallow: /login
+Disallow: /cadastro
+Disallow: /minha-conta
+Disallow: /meus-pedidos
+Disallow: /checkout
+Disallow: /obrigado

@@ -1,0 +1,7 @@
+node_modules/
+neon-build/
+.env*
+!.env.example
+
+*.zip
+

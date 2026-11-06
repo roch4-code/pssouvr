@@ -1,0 +1,3 @@
+PACOTE ATUAL — SUPABASE AUTH + RENDER + NEON
+Leia LEIA-ME-ATUALIZADO.txt, ARCHITECTURE-SETUP.md, ADMIN-SETUP.md e ORDERS-SETUP.md.
+Execute supabase-setup.sql no Supabase e neon-sensitive-setup.sql no Neon novo.

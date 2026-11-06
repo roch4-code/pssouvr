@@ -1,0 +1,9 @@
+{
+  "name": "dej-private-order-api",
+  "private": true,
+  "version": "1.0.0",
+  "type": "module",
+  "engines": { "node": ">=20" },
+  "scripts": { "start": "node server.mjs" },
+  "dependencies": { "pg": "^8.13.1" }
+}

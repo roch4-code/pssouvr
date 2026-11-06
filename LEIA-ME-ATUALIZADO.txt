@@ -1,0 +1,12 @@
+PACOTE ATUALIZADO — ARQUITETURA SUPABASE + RENDER + NEON
+
+Supabase Auth: cadastro e login.
+Supabase Database/Storage: catálogo, admin e resumo sem dados pessoais.
+Render: API privada.
+Neon: dados sensíveis de pedido cifrados antes da gravação.
+Pedidos: resumo no Supabase e dados pessoais cifrados no Neon. A área Planilha do painel administrativo junta essas informações; não existe integração com planilha externa.
+
+Leia ARCHITECTURE-SETUP.md, ADMIN-SETUP.md e ORDERS-SETUP.md antes de publicar.
+Execute supabase-setup.sql no Supabase e neon-sensitive-setup.sql no Neon novo.
+Não publique connection strings, chaves service_role ou chave de cifra no GitHub.
+O pacote não cobra pagamentos nem calcula frete.

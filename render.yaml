@@ -1,0 +1,27 @@
+services:
+  - type: web
+    name: dej-private-api
+    runtime: node
+    plan: free
+    region: virginia
+    rootDir: render-api
+    buildCommand: npm install --omit=dev
+    startCommand: npm start
+    healthCheckPath: /health
+    autoDeployTrigger: commit
+    envVars:
+      - key: DATABASE_URL
+        sync: false
+      - key: DATA_ENCRYPTION_KEY
+        sync: false
+      - key: SUPABASE_SERVICE_ROLE_KEY
+        sync: false
+      - key: SUPABASE_URL
+        value: https://jioxcxezhgdffsjufejc.supabase.co
+      - key: SUPABASE_PUBLISHABLE_KEY
+        value: sb_publishable_9fQKrjCABiJNjuz7CYVXIw_7ofsqlyh
+      - key: ADMIN_EMAIL
+        value: roch4v4@gmail.com
+      - key: ALLOWED_ORIGINS
+        sync: false
+
